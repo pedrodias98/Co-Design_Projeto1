@@ -1,0 +1,14 @@
+.titulo {
+  position: absolute;
+  width: 100%;
+  color: rgb(58, 58, 58);
+  margin-left: -8px;
+  font-size: 3vw;
+  font-family: Lucida Sans Unicode;
+  line-height: 28vw;
+  text-align: center;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(Images/background_design.jpg);
+}
