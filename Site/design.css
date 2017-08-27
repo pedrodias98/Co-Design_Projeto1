@@ -1,14 +1,59 @@
 .titulo {
-  position: absolute;
+  position: relative;
+  left: -5px;
   width: 100%;
   color: rgb(58, 58, 58);
-  margin-left: -8px;
-  font-size: 3vw;
-  font-family: Lucida Sans Unicode;
-  line-height: 28vw;
+  font-size: 3.9vw;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   text-align: center;
-  background-position: top;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url(Images/background_design.jpg);
+}
+
+a.volta {
+  position: fixed;
+  color: rgb(56, 56, 56);
+  font-size: 1vw;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  left: 0px;
+  top: 0px;
+  background-color: rgb(242, 242, 242);
+  padding: 0.5vw 1vw 0.75vw 0.75vw;
+  border-bottom-right-radius: 1vw;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color: rgb(56, 56, 56);
+  border-width: 0.1vw;
+}
+
+.subtitle {
+  position: relative;
+  left: -7px;
+  margin-top: 1.5vw;
+  color: rgb(56, 56, 56);
+  width: 100%;
+  padding-left: 2vw;
+  font-size: 2vw;
+  border-top: solid 1px silver;
+  border-bottom: solid 1px silver;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  line-height: 2.4vw;
+}
+
+.texto {
+  background-color: rgb(235, 235, 235);
+  font-size: 1vw;
+  width: 50vw;
+  padding: 1vw 1vw 1vw 3vw;
+  height:20vw;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.imagem {
+  position: relative;
+  top: -22vw;
+  left: 54vw;
+  width: 44vw;
+  height: 22vw;
+  margin-bottom: -22vw;
 }
