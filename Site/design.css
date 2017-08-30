@@ -13,7 +13,76 @@ a:link, a:visited {
   text-align: center;
 }
 
+a.teo_link {
+  position: absolute;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  line-height: 1600%;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-image: url("Images/home_teo.jpg");
+  /*transform: skewX(-20deg);*/
+  left: 66.8%;
+  width: 33%;
+  top: 8vw;
+  height: 40vw;
+  border-radius: 5%;
+}
 
+h1.titulo_home {
+  position: absolute;
+  width: 100%;
+  color: rgb(58, 58, 58);
+  margin: 0.5vw 0vw 0.5vw 0vw;
+  font-size: 3.9vw;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+}
+
+h2.subtitulo {
+  position: absolute;
+  width: 100%;
+  color: rgb(58, 58, 58);
+  top: 2.5vw;
+  /*margin: 0.5vw 0vw 0.5vw 0vw;*/
+  font-size: 2vw;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  text-align: center;
+}
+
+a.sis_link {
+  position: absolute;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  line-height: 1600%;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-image: url("Images/home_sis.jpg");
+  /*transform: skewX(-20deg);*/
+  background-size: contain;
+  left: 33.5%;
+  width: 33%;
+  top: 8vw;
+  height: 40vw;
+  border-radius: 5%;
+}
+
+a.design_link {
+  position: absolute;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  line-height: 1600%;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-image: url("Images/home_design.jpg");
+  background-size:cover;
+  /*transform: skewX(-20deg);*/
+  left: 0.2%;
+  width: 33%;
+  top: 8vw;
+  height: 40vw;
+  border-radius: 5%;
+}
 
 a.volta {
   position: fixed;
