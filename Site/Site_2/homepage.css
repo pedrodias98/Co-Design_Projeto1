@@ -1,0 +1,29 @@
+
+/* Classes from "homepage" */
+#tudo {
+
+}
+#banner {
+	text-align: center;
+	font-size: 30px;
+	font-family: Helvetica;
+}
+
+#sitepages {
+	text-align: center;
+}
+
+#banner {
+
+}
+
+a {
+    background: url("buttom01.jpg");
+    background-size: cover;
+}
+
+
+h1 {
+	font: message-box;
+	
+}
