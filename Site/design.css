@@ -13,22 +13,6 @@ a:link, a:visited {
   text-align: center;
 }
 
-a.teo_link {
-  position: absolute;
-  color: white;
-  font-size: 2.5vw;
-  text-align: center;
-  line-height: 1600%;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-  background-image: url("Images/home_teo.jpg");
-  /*transform: skewX(-20deg);*/
-  left: 66.8%;
-  width: 33%;
-  top: 8vw;
-  height: 40vw;
-  border-radius: 5%;
-}
-
 h1.titulo_home {
   position: absolute;
   width: 100%;
@@ -50,6 +34,24 @@ h2.subtitulo {
   text-align: center;
 }
 
+/*References to image "teo_link.jpg" in "homepage.html"*/
+a.teo_link {
+  position: absolute;
+  color: white;
+  font-size: 2.5vw;
+  text-align: center;
+  line-height: 1600%;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  background-image: url("Images/home_teo.jpg");
+  /*transform: skewX(-20deg);*/
+  left: 66.8%;
+  width: 33%;
+  top: 8vw;
+  height: 40vw;
+  border-radius: 5%;
+}
+
+/*References to image "home_sis.jpg" in "homepage.html"*/
 a.sis_link {
   position: absolute;
   color: white;
@@ -67,6 +69,7 @@ a.sis_link {
   border-radius: 5%;
 }
 
+/*References to image "home_design.jpg" in "homepage.html"*/
 a.design_link {
   position: absolute;
   color: white;
