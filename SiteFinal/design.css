@@ -5,12 +5,63 @@ a:link, a:visited {
 
 .titulo {
   position: relative;
-  width: 100%;
+  width: 80%;
   color: rgb(58, 58, 58);
   margin: 1.3vw 0vw 1.3vw 0vw;
   font-size: 3.9vw;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   margin-left: 10%;
+}
+
+a.a_p_1 {
+  position: absolute;
+  font-size: 1.2vw;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: middle;
+  left: 89.5vw;
+  border-radius: 15%;
+  top:11vw;
+  width:9vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-image: url("Images/home_design.jpg");
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a.a_p_2 {
+  position: absolute;
+  font-size: 1.2vw;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: middle;
+  left: 70.5vw;
+  border-radius: 15%;
+  top:11vw;
+  width:9vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-image: url("Images/home_design.jpg");
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a.a_p_3 {
+  position: absolute;
+  font-size: 1.2vw;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  line-height: middle;
+  left: 80vw;
+  border-radius: 15%;
+  top:11vw;
+  width:9vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
+  background-image: url("Images/home_design.jpg");
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 h1.titulo_home {
