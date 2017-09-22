@@ -1,0 +1,210 @@
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Matteo Iannoni
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			99813-6972
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			matteoi@al.insper.edu.br
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Eu sou o Matteo Iannoni, nasci em 1997 e adoro computação. Eu programei boa parte deste site! Do HTML e CSS ao JS e Python que mudam o html de acordo com o portfolio de cada aluno e a pagina em si - por que programador bom usa programa pra fazer trabalho repetitivo e formulaico como copiar a estrutura HTML de uma pagina para outras se o que muda é só o conteudo delas.
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			Prova de programação
+			10
+			software
+		|stat1_end|
+
+		|stat2|
+			Projeto de uma rede de distribuição de petróleo
+			10
+			essay
+		|stat2_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Padronizador de Nomes
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			O objetivo deste projeto é criar um programa que abra e modifique uma lista de nomes de um arquivo '.txt' de acordo com um padrão. No minimo, o programa deveria arrumar uma lista especifica de nomes, porem, para atingir notas mais altas o aluno deveria fazer "algo a mais" (verbatim das instruções do projeto) no codigo; a linha de codigo que eu programei, só foi necessario uma, padroniza uma lista com 'x' nomes (eliminando nomes que ja existam na lista), sejam estes nomes compostos, com mais de 1 sobrenome ou com algum nome/sobrenome repetido.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Nada
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+			EP1.pdf
+			Nomes.txt
+			Matteo_Iannoni_EP1.py
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			padronizador_de_nomes.png
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Jhonata Ferreira de Souza
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			(11) 96412-1122
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			jhonatafs@al.insper.edu.br
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Eu sou o Jhonata, sou um misto entre algumas exatas e humanas. Sempre tive um gosto tendencioso a tecnologia o que me levou a querer me aprofundar na área de programação e hoje em dia a engenharia da computação, mas como hobby eu gosto de pesquisar sobre e aprender as curiosidades que envolvem a filosofia e a sociologia.
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			Prova de programação
+			10
+			software
+		|stat1_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Padronizador de Nomes
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			O objetivo deste projeto é criar um programa que abra e modifique uma lista de nomes de um arquivo '.txt' de acordo com um padrão. No minimo, o programa deveria arrumar uma lista especifica de nomes.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Nada
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+			EP1.pdf
+			Nomes.txt
+			EP1-Jhonata(1A).py
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			codigo_parte.png
+		|pictures_end|
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Saque com ou sem resistência ar
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Esse foi um projeto com o intuito de modelar, analisar e tirar conclusões de um sistema mecânico. O que levou a modelação do saque de uma bola de vôlei em uma partida, analisando as diferenças no comportamento da bola quando levamos em conta a resistência do ar e quando não a levamos em conta.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			programação  análise  modelagem  probletatização  matematica
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+				
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+			Projeto1(finalizado).pdf
+			Criação.ipynb
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			Estoque_e_fluxos.png
+		|pictures_end|
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Medidor meteorológico portátil
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			A ideia desse projeto era aprender a manusear e se familiarizar com componentes elétricos, tanto manualmente quanto digitalmente, então foi criado um pequeno medidos de temperatura, altura, humidade e pressão utilizando um Arduino.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			electric
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			circuitos componentes simulação
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|

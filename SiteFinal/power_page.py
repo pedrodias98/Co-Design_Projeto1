@@ -23,13 +23,13 @@ for nome in nomes:
 			if "Jhow." in item:
 				item = replacer(item,"Jhow.",nome)
 			if "jhowarea1.html" in item:
-				item = replacer(item, "jhowarea1.html", nomesinho[nomes.index(nome)]+"area1.html")
+				item = replacer(item, "jhow", nomesinho[nomes.index(nome)])
 			if "jhowarea2.html" in item:
-				item = replacer(item, "jhowarea2.html", nomesinho[nomes.index(nome)]+"area2.html")
+				item = replacer(item, "jhow", nomesinho[nomes.index(nome)])
 			if "jhowarea3.html" in item:
-				item = replacer(item, "jhowarea3.html", nomesinho[nomes.index(nome)]+"area3.html")
+				item = replacer(item, "jhow", nomesinho[nomes.index(nome)])
 			if '<a class = "volta" href="sobrejhow.html">Voltar</a>' in item:
-				item = replacer(item, '<a class = "volta" href="sobrejhow.html">Voltar</a>', '<a class = "volta" href="sobre'+nomesinho[nomes.index(nome)]+'.html">Voltar</a>')
+				item = replacer(item, "jhow", nomesinho[nomes.index(nome)])
 
 			for coisa in links:
 				if coisa in item:
