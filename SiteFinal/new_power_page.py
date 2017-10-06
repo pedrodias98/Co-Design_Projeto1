@@ -1,271 +1,348 @@
 # -*- coding: utf-8 -*-
 
-tags = ["user","name","contact","telephone","email","description","statistics","stat","project","p_name","p_description","category","skills","download","pictures"]
+import time as t
 
-for tag in tags:
-	exec(tag+"_flag = False")
 
-usuarios = {}
-current_line = -1
+###########################################################################################################################################################################
+#																																										  #
+#																	Começo do interpretador																				  #
+#																																										  #
+###########################################################################################################################################################################
 
-with open("database.txt", "r") as arquivo:
-	linhas_do_arquivo = [x.strip() for x in arquivo]
-	
-	for linha in linhas_do_arquivo:
-		if len(linha) > 0:
-			if linha[0][0] == "#" or linha[0] == "#":
+while True:
+	# t.sleep(5)
+	#Tags usados para o interpretador extrair as informacoes do arquivo .txt
+	tags = ["user","name","contact","telephone","email","description","statistics","stat","project","p_name","p_description","category","skills","download","pictures"]
+
+	#Para cada tag, criar uma variavel booleana para servir de flag, indicando para o interpretador quando um lote de informacoes começa ou acaba
+	for tag in tags:
+		exec(tag+"_flag = False")
+
+	#Dicionario vazio para guardar as informacoes de usuarios
+	usuarios = {}
+
+	#Contador para o interpretador saber em qual linha do arquivo .txt ele ta
+	current_line = -1
+
+	#Com a base de dados ("database.txt") aberta para leitura:
+	with open("database.txt", "r", encoding="utf8") as arquivo:
+
+	#	Criar uma lista na qual cada item é uma linha do arquivo .txt sem espacos a esquerda ou direita
+		linhas_do_arquivo = [x.strip() for x in arquivo]
+
+	#	Se for um comentario ou linha vazia, deletar item na lista
+		for linha in linhas_do_arquivo:
+			if len(linha) == 0:
 				linhas_do_arquivo.remove(linha)
+				linha = linhas_do_arquivo[current_line]
+			elif linha[0] == "#":
+				linhas_do_arquivo.remove(linha)
+				linha = linhas_do_arquivo[current_line]
 
-	for linha in linhas_do_arquivo:
+	#	Para cada linha do arquivo .txt
+		while current_line < (len(linhas_do_arquivo)-1):
 
-		current_line += 1
+	#		Soma 1 no valor do contador, nesse ponto current_line == 0
+			current_line += 1
+			linha = linhas_do_arquivo[current_line]
 
-		if linha == ("|"+tags[0]+"|"):
-			user_index = tags[0] + str(len(usuarios))
-			usuarios[user_index] = {}
-			user_flag = True
+	#		Se a linha contém |user|
+			if ("|"+tags[0]+"|") in linha:
+				user_index = tags[0] + str(len(usuarios))
+				print(user_index + " START " + str(current_line))
 
-		if user_flag == True:
+	#			Criar usuario novo no dicionario 'usuarios'
+				usuarios[user_index] = {}
+				user_flag = True
 
-			if linha == ("|"+tags[1]+"|"):
-				usuarios[user_index][tags[1]] = linhas_do_arquivo[current_line + 1]
-				name_flag = True
+	#		Aqui o interpretador lê cada tag e de acordo com a tag, insere a informacao nela guardada no dicionario 'usuarios', no usuario devido
+			if user_flag == True:
 
-			elif linha == ("|"+tags[2]+"|"):
-				usuarios[user_index][tags[2]] = {}
-				contact_flag = True
+				if linha == ("|"+tags[1]+"|"):
+					usuarios[user_index][tags[1]] = linhas_do_arquivo[current_line + 1]
+					name_flag = True
 
-			elif contact_flag == True:
-				if linha == ("|"+tags[3]+"|"):
-					usuarios[user_index][tags[2]][tags[3]] = linhas_do_arquivo[current_line + 1]
-				elif linha == ("|"+tags[4]+"|"):
-					usuarios[user_index][tags[2]][tags[4]] = linhas_do_arquivo[current_line + 1]
+				elif linha == ("|"+tags[2]+"|"):
+					usuarios[user_index][tags[2]] = {}
+					contact_flag = True
 
-			elif linha == ("|"+tags[5]+"|"):
-				usuarios[user_index][tags[5]] = linhas_do_arquivo[current_line + 1]
-				description_flag = True
+				elif contact_flag == True:
+					if linha == ("|"+tags[3]+"|"):
+						usuarios[user_index][tags[2]][tags[3]] = linhas_do_arquivo[current_line + 1]
+					elif linha == ("|"+tags[4]+"|"):
+						usuarios[user_index][tags[2]][tags[4]] = linhas_do_arquivo[current_line + 1]
 
-			elif linha == ("|"+tags[6]+"|"):
-				usuarios[user_index][tags[6]] = {}
-				statistics_flag = True
+				elif linha == ("|"+tags[5]+"|"):
+					usuarios[user_index][tags[5]] = linhas_do_arquivo[current_line + 1]
+					description_flag = True
 
-			elif statistics_flag == True:
-				for i in range(1,6):
-					if linha == ("|"+tags[7]+str(i)+"|"):
-						usuarios[user_index][tags[6]][tags[7]+str(i)] = {"project":(linhas_do_arquivo[current_line + 1]),
-																"evaluation":(linhas_do_arquivo[current_line + 2]),
-																"type":(linhas_do_arquivo[current_line + 3])}
+				elif linha == ("|"+tags[6]+"|"):
+					usuarios[user_index][tags[6]] = {}
+					statistics_flag = True
 
-			elif linha == ("|"+tags[8]+"|"):
-				try:
-					usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"]))] = {
-					tags[9] : linhas_do_arquivo[current_line + 1],
-					tags[10] : linhas_do_arquivo[current_line + 2],
-					tags[11] : linhas_do_arquivo[current_line + 3],
-					tags[12] : linhas_do_arquivo[current_line + 4]
-					}
-				except KeyError:
-					usuarios[user_index][tags[8]+"s"] = {}
-					usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"]))] = {
-					tags[9] : linhas_do_arquivo[current_line + 1],
-					tags[10] : linhas_do_arquivo[current_line + 2],
-					tags[11] : linhas_do_arquivo[current_line + 3],
-					tags[12] : linhas_do_arquivo[current_line + 4]
-					}
-				project_flag = True
+				elif statistics_flag == True:
+					for i in range(1,6):
+						if (linha == ("|"+tags[7]+str(i)+"|")):
+							usuarios[user_index][tags[6]][tags[7]+str(i)] = {"project":(linhas_do_arquivo[current_line + 1]),
+																	"evaluation":(linhas_do_arquivo[current_line + 2]),
+																	"type":(linhas_do_arquivo[current_line + 3])}
 
-			elif project_flag == True and linha != ("|"+tags[8]+"_end|"):
-				if linha == ("|"+tags[13]+"|"):
-					usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"])-1)][tags[13]] = []
-					download_flag = True
-				elif linha == ("|"+tags[14]+"|"):
-					usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"])-1)][tags[14]] = []
-					pictures_flag = True
-				elif download_flag == True and linha != ("|"+tags[13]+"_end|"):
-					usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"])-1)][tags[13]].append(linha)
-				elif pictures_flag == True and linha != ("|"+tags[14]+"_end|"):
-					usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"])-1)][tags[14]].append(linha)
+				elif linha == ("|"+tags[8]+"|"):
+					try:
+						usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"]))] = {
+						tags[9] : linhas_do_arquivo[current_line + 1],
+						tags[10] : linhas_do_arquivo[current_line + 2],
+						tags[11] : linhas_do_arquivo[current_line + 3],
+						tags[12] : linhas_do_arquivo[current_line + 4]
+						}
+					except KeyError:
+						usuarios[user_index][tags[8]+"s"] = {}
+						usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"]))] = {
+						tags[9] : linhas_do_arquivo[current_line + 1],
+						tags[10] : linhas_do_arquivo[current_line + 2],
+						tags[11] : linhas_do_arquivo[current_line + 3],
+						tags[12] : linhas_do_arquivo[current_line + 4]
+						}
+					project_flag = True
 
-			for tag in tags[1:]:
-				if linha == "|"+tag+"_end|":
-					exec(tag+"_flag = False")
-			
-			if linha == "|user_end|":
-				user_flag = False
-				print(current_line)
+				elif project_flag == True and linha != ("|"+tags[8]+"_end|"):
+					if linha == ("|"+tags[13]+"|"):
+						usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"])-1)][tags[13]] = []
+						download_flag = True
+					elif linha == ("|"+tags[14]+"|"):
+						usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"])-1)][tags[14]] = []
+						pictures_flag = True
+					elif download_flag == True and linha != ("|"+tags[13]+"_end|"):
+						usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"])-1)][tags[13]].append(linha)
+					elif pictures_flag == True and linha != ("|"+tags[14]+"_end|"):
+						usuarios[user_index][tags[8]+"s"][tags[8] + str(len(usuarios[user_index][tags[8]+"s"])-1)][tags[14]].append(linha)
 
-for users in usuarios:
-	print(users + ":")
-	print(usuarios[users])
-	print("")
-print(current_line)
-
-#####################################################################################################################################################
-#####################################################################################################################################################
-
-def replacer(stringe,objeto,rep):
-	return stringe[:stringe.index(objeto)] + rep + stringe[(stringe.index(objeto) + len(objeto)):]
-
-subject_areas1 = {"software" : ["Software","software", "DESCRICAO DA AREA DO CONHECIMENTO"],
-				"design" : ["Design", "design", "DESCRICAO DA AREA DO CONHECIMENTO"]}
-subject_areas2 = {"electric2" : ["Eletricidade (téses)","electric2", "DESCRICAO DA AREA DO CONHECIMENTO"],
-				"essay" : ["Trabalhos escritos","essay", "DESCRICAO DA AREA DO CONHECIMENTO"]}
-subject_areas3 = {"modelagem" : ["Modelagem e simulação do mundo fisico","modelagem", "DESCRICAO DA AREA DO CONHECIMENTO"],
-				"electric" : ["Eletricidade","electric", "DESCRICAO DA AREA DO CONHECIMENTO"]}
-
-# Electric
-# Electric2 #se quiser por relatórios
-# Essay #significa tése em inglês, seria equivalente a GDE
-# Modelagem
-# Design
+				for tag in tags[1:]:
+					if linha == "|"+tag+"_end|":
+						exec(tag+"_flag = False")
+				
+				if linha == "|user_end|":
+					user_flag = False
+					print(user_index + " END " + str(current_line))
 
 
+	#Imprimir usuarios por motivos de debug
+	for users in usuarios:
+		print("\n" + users + ":")
+		print(usuarios[users])
+		print("")
+	# print(current_line)
 
-home_html = """
-<html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="design.css"/>
-		<title>Design Tech</title>
-	</head>
+	###########################################################################################################################################################################
+	#																																										  #
+	#																	Fim do interpretador																				  #
+	#																																										  #
+	###########################################################################################################################################################################
 
-	<body style="margin:0;padding:0">
-		<h1 class="titulo_home">Design Tech</h1>
-		<h2 class="subtitulo">your source of portfolios</h2>
-"""
-for index in range(0,len(usuarios)):
+	###########################################################################################################################################################################
+	#																																										  #
+	#																	Começo do gerador da homepage																		  #
+	#																																										  #
+	###########################################################################################################################################################################
+
+	home_html = """
+	<html>
+		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="../static/design.css"/>
+			<title>Design Tech</title>
+		</head>
+
+		<body style="margin:0;padding:0">
+			<h1 class="titulo_home">Design Tech</h1>
+			<h2 class="subtitulo">your source of portfolios</h2>
+
+			<a href="signup.html">
+				<img class="addprofile" src="../static/Images/addprofile.png"/>
+			</a>
+	"""
+	for index in range(0,len(usuarios)):
+		print(index)
+		home_html += """
+			<div class="home_container">
+				<a href="sobre"""+"_".join(usuarios["user"+str(index)]["name"].split())+""".html"><img class="home_pic" src="../static/Images/"""+usuarios["user"+str(index)]["name"]+""".jpeg"></img></a>
+				<div class="home_name"><a class="black" href="sobre"""+"_".join(usuarios["user"+str(index)]["name"].split())+""".html"><b>"""+usuarios["user"+str(index)]["name"][:2+(usuarios["user"+str(index)]["name"][1:].index(usuarios["user"+str(index)]["name"].split()[1][0]))]+""".</b></a></div>
+			</div>"""
+
 	home_html += """
-		<div class="home_container">
-			<a href="sobre"""+"_".join(usuarios["user"+str(index)]["name"].split())+""".html"><img class="home_pic" src="Images/"""+usuarios["user"+str(index)]["name"]+""".png"></img></a>
-			<div class="home_name"><a class="black" href="sobre"""+"_".join(usuarios["user"+str(index)]["name"])+""".html"><b>"""+usuarios["user"+str(index)]["name"][:(1+usuarios["user"+str(index)]["name"].index(usuarios["user"+str(index)]["name"].split()[-1][0]))]+""".</b></a></div>
-		</div>"""
+		</body>
+	</html>
+	"""
 
-home_html += """
-	</body>
-</html>
-"""
-
-home_file = open('homepage.html','w')
-home_file.write(home_html)
-home_file.close()
+	home_file = open("templates/"+'homepage.html','w', encoding="utf8")
+	home_file.write(home_html)
+	home_file.close()
 
 
+	###########################################################################################################################################################################
+	#																																										  #
+	#																	Fim do gerador da homepage																			  #
+	#																																										  #
+	###########################################################################################################################################################################
 
 
 
-for index in range(0,len(usuarios)):
-	profile_html = open("sobre"+"_".join(usuarios["user"+str(index)]["name"].split())+'.html',"w")
-	profile_html.write("""
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>"""+usuarios["user"+str(index)]["name"][:(1+usuarios["user"+str(index)]["name"].index(usuarios["user"+str(index)]["name"].split()[-1][0]))]+""".</title>
-		<link rel="stylesheet" type="text/css" href="design.css"/>
-	</head>
+	###########################################################################################################################################################################
+	###########################################################################################################################################################################
+	##																																										 ##
+	##																	Inicio do gerador de paginas de usuarios															 ##
+	##																																										 ##
 
-	<body style="margin:0;padding:0">
-		<div class = "titulo_sobremim">
-			<b>"""+usuarios["user"+str(index)]["name"][:(1+usuarios["user"+str(index)]["name"].index(usuarios["user"+str(index)]["name"].split()[-1][0]))]+""".</b>
-		</div>
 
-		<div class="sobremim_container2">
-			<img class="sobremim_imagem" src="Images/"""+usuarios["user"+str(index)]["name"]+""".png"></img>
+		###################################################################################################################################################################
+		#																																								  #
+		#																Perfil do usuario																				  #
+		#																																								  #
+	for index in range(0,len(usuarios)):
+		statisticas = []
+		for x in usuarios["user"+str(index)]["statistics"]:
+			if usuarios["user"+str(index)]["statistics"][x]["project"] != "":
+				statisticas.append("<br>Em "+usuarios["user"+str(index)]["statistics"][x]["project"]+" do tipo "+usuarios["user"+str(index)]["statistics"][x]["type"]+" tirou "+usuarios["user"+str(index)]["statistics"][x]["evaluation"]+".")
 
-			<div class="sobremim_subtitulo">
-				Contato
+		profile_html = open("templates/"+"sobre"+"_".join(usuarios["user"+str(index)]["name"].split())+'.html',"w", encoding="utf8")
+		profile_html.write("""
+	<html>
+		<head>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+			<title>"""+usuarios["user"+str(index)]["name"][:(1+usuarios["user"+str(index)]["name"].index(usuarios["user"+str(index)]["name"].split()[-1][0]))]+""".</title>
+			<link rel="stylesheet" type="text/css" href="../static/design.css"/>
+		</head>
+
+		<body style="margin:0;padding:0">
+			<div class = "sobremim_titulo_container">
+				<div class = "titulo_sobremim">
+					<b>"""+usuarios["user"+str(index)]["name"][:(1+usuarios["user"+str(index)]["name"].index(usuarios["user"+str(index)]["name"].split()[-1][0]))]+""".</b>
+				</div>
+			</div>
+
+			<div class="sobremim_container1">
+				<img class="sobremim_imagem" src="../static/Images/"""+usuarios["user"+str(index)]["name"]+""".jpeg"></img>
+
+				<div class="sobremim_subtitulo">
+					Contato
+				</div>
+		
 				<div class="sobremim_subtexto" href="homepage.html">
-					<br>Telefone: """+usuarios["user"+str(index)]["contact"]["telephone"]+"""
-					<br>Email: """+usuarios["user"+str(index)]["contact"]["email"]+"""
-				</div>
+					Telefone:<br>"""+usuarios["user"+str(index)]["contact"]["telephone"]+"""
+					<br>Email:<br>"""+usuarios["user"+str(index)]["contact"]["email"]+"""
+				</div>			
 			</div>
-		</div>
 
-		<div class="sobremim_container1">
-			<div class="sobremim_titulo" href="homepage.html">
-				Sobre mim:
+			<div class="sobremim_container2">
+				<div class="sobremim_titulo" href="homepage.html">
+					Sobre mim:
+				</div>
+
 				<div class="sobremim_texto">
-					"""+usuarios["user"+str(index)]["description"]+"""
+						"""+usuarios["user"+str(index)]["description"]+"""
 				</div>
 			</div>
-		</div>
 
-		<div class="sobremim_subtitulo2">
-			Areas de atuacao:
 			<div class="sobremim_container3">
-				<a class="a_p" href='"""+"_".join(usuarios["user"+str(index)]["name"].split())+"""area1.html'>
-						<img class="a_p_img" src="Images/design.jpg"></img>
-						Software e Design
-				<a/>
-				<a class="a_p" href='"""+"_".join(usuarios["user"+str(index)]["name"].split())+"""area3.html'>
-						<img class="a_p_img" src="Images/sistems.jpg"></img>
-						Sistemas do mundo
-				<a/>
-				<a class="a_p" href='"""+"_".join(usuarios["user"+str(index)]["name"].split())+"""area2.html'>
-						<img class="a_p_img" src="Images/theory.jpg"></img>
-						Trabalhos teoricos
-				<a/>
+				<div class="sobremim_subtitulo2">
+					Areas de atuacao (Links):
+				</div>
+
+				<div class="sobremim_container4">
+					<a class="a_p" href='"""+"_".join(usuarios["user"+str(index)]["name"].split())+"""area1.html'>
+							<img class="a_p_img" src="../static/Images/design.jpg"></img>
+							Software e Design
+					<a/>
+				</div>
+
+				<div class="sobremim_container4">
+					<a class="a_p" href='"""+"_".join(usuarios["user"+str(index)]["name"].split())+"""area3.html'>
+							<img class="a_p_img" src="../static/Images/sistems.jpg"></img>
+							Sistemas do mundo
+					<a/>
+				</div>
+
+				<div class="sobremim_container4">
+					<a class="a_p" href='"""+"_".join(usuarios["user"+str(index)]["name"].split())+"""area2.html'>
+							<img class="a_p_img" src="../static/Images/theory.jpg"></img>
+							Trabalhos teoricos
+					<a/>
+				</div>
+			
+				<div class="sobremim_subtitulo3">
+					Projetos Notaveis:
+				</div>
+
+				<div class="sobremim_texto3" href="homepage.html">
+					"""+"".join(statisticas)+"""
+				</div>
 			</div>
-		</div>
+			<a class = "volta" href="homepage.html">Voltar</a>
+		</body>
+	</html>""")
+		profile_html.close()
+		#																																								  #
+		#																Fim do perfil de usuario																		  #
+		#																																								  #
+		###################################################################################################################################################################
 
-		<div class="sobremim_subtitulo3">
-			Projetos Notaveis:
-			<div class="sobremim_texto3" href="homepage.html">
-				"""+" ".join([("<br>Em "+usuarios["user"+str(index)]["statistics"][x]["project"]+" do tipo "+usuarios["user"+str(index)]["statistics"][x]["type"]+" tirou "+usuarios["user"+str(index)]["statistics"][x]["evaluation"]+".") for x in usuarios["user"+str(index)]["statistics"]])+"""
+
+
+		###################################################################################################################################################################
+		#																																								  #
+		#																Paginas:																						  # 
+		#																		<usuario> em <x> e <y>.																	  #
+		#																Onde x e y são categorias de projeto semelhantes												  #
+		#																																								  #
+		subject_areas1 = {"software" : ["Software","software", "Uma sequência de instruções escritas para serem interpretadas por um computador com o objetivo de executar tarefas específicas. Também pode ser definido como os programas que comandam o funcionamento de um computador."],
+						"design" : ["Design", "design", "A idealização, criação, desenvolvimento, configuração, concepção, elaboração e especificação de artefatos, normalmente produzidos industrialmente ou por meio de sistema de produção seriada que demanda padronização dos componentes e desenho normalizado."]}
+		subject_areas2 = {"electric2" : ["Eletricidade (téses)","electric2", "Trabalhos escritos relacionados a eletricidade. Relatorios de projetos sao encontrados aqui."],
+						"essay" : ["Trabalhos escritos","essay", "Trabalhos escritos, em sua maior parte debatendo visoes de mundo e buscando uma perspectiva propria de certos problemas."]}
+		subject_areas3 = {"modelagem" : ["Modelagem e simulação do mundo fisico","modelagem", "Modelagem matematica de fenomenos que ocorrem no mundo fisico."],
+						"electric" : ["Eletricidade","electric", "Tudo que se relaciona a eletricidade, que nao seja teorico, fica aqui."]}
+		listinha = [subject_areas1,subject_areas2,subject_areas3]
+
+		for area in range(1,4):
+
+			debug1 = usuarios["user"+str(index)]["name"][:(1+usuarios["user"+str(index)]["name"].index(usuarios["user"+str(index)]["name"].split()[-1][0]))]
+
+			for_area = listinha[area-1]
+
+			area_html = open("templates/"+"_".join(usuarios["user"+str(index)]["name"].split())+'area'+str(area)+'.html',"w", encoding="utf8")
+			area1_html = ("""
+	<html>
+		<head>
+			<title>"""+debug1+"""</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="../static/design.css"/>
+			
+		</head>
+		<body style="margin:0;padding:0">
+			<div class = "titulo">
+				<b>""" + debug1 +""". em """+" e ".join([for_area[x][0] for x in for_area])+"""</b>
 			</div>
-		</div>
-		<a class = "volta" href="homepage.html">Voltar</a>
-	</body>
-</html>""")
-	profile_html.close()
-	
 
+	""")
 
+			###########################################################################################################################################################
+			#																																						  #
+			#															Paginas:																					  # 
+			#																	<usuario> em <x>.																	  #
+			#															Onde x é uma categoria de projeto															  #
+			#																																						  #
 
+			for x in for_area:
+				materia = for_area[x]
 
+				has_project = False
 
-
-	subject_areas1 = {"software" : ["Software","software", "DESCRICAO DA AREA DO CONHECIMENTO"],
-					"design" : ["Design", "design", "DESCRICAO DA AREA DO CONHECIMENTO"]}
-	subject_areas2 = {"electric2" : ["Eletricidade (téses)","electric2", "DESCRICAO DA AREA DO CONHECIMENTO"],
-					"essay" : ["Trabalhos escritos","essay", "DESCRICAO DA AREA DO CONHECIMENTO"]}
-	subject_areas3 = {"modelagem" : ["Modelagem e simulação do mundo fisico","modelagem", "DESCRICAO DA AREA DO CONHECIMENTO"],
-					"electric" : ["Eletricidade","electric", "DESCRICAO DA AREA DO CONHECIMENTO"]}
-	listinha = [subject_areas1,subject_areas2,subject_areas3]
-
-
-	for area in range(1,4):
-
-		debug1 = usuarios["user"+str(index)]["name"][:(1+usuarios["user"+str(index)]["name"].index(usuarios["user"+str(index)]["name"].split()[-1][0]))]
-
-		for_area = listinha[area-1]
-
-		area_html = open("_".join(usuarios["user"+str(index)]["name"].split())+'area'+str(area)+'.html',"w")
-		area1_html = ("""
-<html>
-	<head>
-		<title>"""+debug1+"""</title>
-		<link rel="stylesheet" type="text/css" href="design.css"/>
-		<link rel="icon" type="image/png" href="design_tab_icon.png"/>
-	</head>
-	<body style="margin:0;padding:0">
-		<div class = "titulo">
-			<b>""" + debug1 +""". em """+" e ".join([for_area[x][0] for x in for_area])+"""</b>
-		</div>
-
-""")
-
-
-		for x in for_area:
-			materia = for_area[x]
-###############################################################
-			for y in  usuarios["user"+str(index)]["projects"]:
-				if usuarios["user"+str(index)]["projects"][y]["category"].lower() == materia[1].lower():
-					area2_html = ("""
+				area2_html = ("""
 	<html>
 		<head>
 			<title>"""+debug1+""". """+materia[0]+"""</title>
-			<link rel="stylesheet" type="text/css" href="design.css"/>
-			<link rel="icon" type="image/png" href="design_tab_icon.png"/>
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+			<link rel="stylesheet" type="text/css" href="../static/design.css"/>
+			
 		</head>
 		<body style="margin:0;padding:0">
 			<div class = "titulo">
@@ -274,87 +351,94 @@ for index in range(0,len(usuarios)):
 
 	""")
 
-					print(usuarios["user"+str(index)]["projects"][y]["category"].lower())
-					print(materia[1].lower())
+				###################################################################################################################################################
+				#																																				  #
+				#														Posts de projetos																		  #
+				#																																				  #
+				for y in  usuarios["user"+str(index)]["projects"]:
+
+	#				IF A CATEGORIA DE UM DADO PROJETO 'y' É IGUAL À CATEGORIA DA PAGINA SENDO CRIADA:
+					if usuarios["user"+str(index)]["projects"][y]["category"].lower() == materia[1].lower():
+						
+	#					PRINTS POR MOTIVOS DE DEBUG
+						print(usuarios["user"+str(index)]["projects"][y]["category"].lower() + " = " + materia[1].lower())
+
+						has_project = True
 
 
-					area2_html += str("""
+	#					CRIA UM "MODULO" POR PROJETO
+						area2_html += str("""
+
 			<div class="subtitle" href="homepage.html">
-	""" + usuarios["user"+str(index)]["projects"][y]["p_name"] + """
+		""" + usuarios["user"+str(index)]["projects"][y]["p_name"] + """
 			</div>
 			<div class="texto">
-				<img class="imagem" src="Images/"""+usuarios["user"+str(index)]["projects"][y]["p_name"]+""".png"/>
+				<img class="imagem" src="../static/Images/"""+usuarios["user"+str(index)]['name']+" "+usuarios["user"+str(index)]["projects"][y]["p_name"]+""".png"/>
 				"""+usuarios["user"+str(index)]["projects"][y]["p_description"]+"""
-			</div>
-			""")
-					area2_html += """
+			</div>""")
 
+				if has_project == False:
+	#			IF (NAO TIVER NENHUM PROJETO NESSA CATEGORIA):
+					area2_html += ("""
+			<div class="no_p">
+						"""+debug1.split()[0]+""" nao tem nenhum projeto aqui!
+			</div>""")
+	#					"USUARIO NAO TEM NENHUM PROJETO AQUI!"
+
+
+				#																																				  #
+				#														Posts de projetos																		  #
+				#																																				  #
+				###################################################################################################################################################
+				
+	#			BOTAO VOLTAR, ADICIONADO NO FINAL DE TODAS AS PAGINAS, PARA NAVEGACAO DO SITE
+				area2_html += """
 			<a class = "volta" href='""" + "_".join(usuarios["user"+str(index)]["name"].split())+'area'+str(area)+""".html'>Voltar</a>
-
-			<a class = "nome1" href="sobrepedro.html">Pedro V</a>
-			<a class = "nome2" href="sobreMatteo_Iannoni.html">Matteo I</a>
-			<a class = "nome3" href="sobrejhow.html">Jhow</a>
-			<a class = "nome4" href="sobrealegro.html">Alegro</a>
 		</body>
 	</html>"""
-					area3_html = open("_".join(usuarios["user"+str(index)]["name"].split())  + materia[1] + ".html", 'w')
-					area3_html.write(area2_html)
-					area3_html.close()
-				else:
-					try:
-						open("_".join(usuarios["user"+str(index)]["name"].split())  + materia[1] + ".html", 'r')
-					except FileNotFoundError:
-						area2_html = ("""
-	<html>
-		<head>
-			<title>"""+debug1+""". """+materia[0]+"""</title>
-			<link rel="stylesheet" type="text/css" href="design.css"/>
-			<link rel="icon" type="image/png" href="design_tab_icon.png"/>
-		</head>
-		<body style="margin:0;padding:0">
-			<div class = "titulo">
-				<b>"""+debug1+""". em """ +materia[0]+ """</b>
+
+	#			SALVAR UM ARQUIVO .html COM A INFORMACAO DA VARIAVEL area2_html , NA PASTA 'templates/' COM O FORMATO "<nome do usuario><categoria de projetos>.html"
+				area3_html = open("templates/"+"_".join(usuarios["user"+str(index)]["name"].split())  + materia[1] + ".html", 'w', encoding="utf8")
+				area3_html.write(area2_html)
+				area3_html.close()
+
+			#																																						  #
+			#															Paginas:																					  # 
+			#																	<usuario> em <x>.																	  #
+			#															Onde x é uma categoria de projeto															  #
+			#																																						  #
+			###########################################################################################################################################################
+
+				area1_html += str("""
+			<div class="subtitle" href="homepage.html">
+	""" + materia[0] + """
 			</div>
+			<a href='""" + "_".join(usuarios["user"+str(index)]["name"].split()) + materia[1] + """.html'>
+				<div class="texto">
+					<img class="imagem" src="../static/Images/"""+materia[1]+"""_imagem_1.png"/>
+					"""+materia[2]+"""
+				</div>
+			</a>""")
 
-			<a class = "volta" href='""" + "_".join(usuarios["user"+str(index)]["name"].split())+'area'+str(area)+""".html'>Voltar</a>
+			area1_html += """
 
-			<a class = "nome1" href="sobrepedro.html">Pedro V</a>
-			<a class = "nome2" href="sobreMatteo_Iannoni.html">Matteo I</a>
-			<a class = "nome3" href="sobrejhow.html">Jhow</a>
-			<a class = "nome4" href="sobrealegro.html">Alegro</a>
+			<a class = "volta" href="sobre""" + "_".join(usuarios["user"+str(index)]["name"].split()) + """.html">Voltar</a>
 		</body>
-	</html>""")
-					area3_html = open("_".join(usuarios["user"+str(index)]["name"].split())  + materia[1] + ".html", 'w')
-					area3_html.write(area2_html)
-					area3_html.close()
-###############################################################
-			
+	</html>"""
 
-###############################################################
-			area1_html += str("""
-		<div class="subtitle" href="homepage.html">
-""" + materia[0] + """
-		</div>
-		<a href='""" + "_".join(usuarios["user"+str(index)]["name"].split()) + materia[1] + """.html'>
-			<div class="texto">
-				<img class="imagem" src="Images/"""+materia[1]+"""_imagem_1.jpg"/>
-				"""+materia[2]+"""
-			</div>
-		</a>""")
-
-		area1_html += """
-
-		<a class = "volta" href="sobre""" + "_".join(usuarios["user"+str(index)]["name"].split()) + """.html">Voltar</a>
-
-		<a class = "nome1" href="sobrepedro.html">Pedro V</a>
-		<a class = "nome2" href="sobreMatteo_Iannoni.html">Matteo I</a>
-		<a class = "nome3" href="sobrejhow.html">Jhow</a>
-		<a class = "nome4" href="sobrealegro.html">Alegro</a>
-	</body>
-</html>"""
-#################################################################
-		area_html.write(area1_html)
-		area_html.close()
+			area_html.write(area1_html)
+			area_html.close()
+		#																																								  #
+		#																Paginas:																						  # 
+		#																		<usuario> em <x> e <y>.																	  #
+		#																Onde x e y são categorias de projeto semelhantes												  #
+		#																																								  #
+		###################################################################################################################################################################
 
 
-print(usuarios["user1"])
+	##																																										 ##
+	##																	Fim do gerador de perfil de usuario																	 ##
+	##																																										 ##
+	###########################################################################################################################################################################
+	###########################################################################################################################################################################
+	break

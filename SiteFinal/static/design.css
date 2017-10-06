@@ -1,0 +1,794 @@
+@media only screen and (min-width: 500px) {
+  a:link, a:visited {
+      color: (internal value);
+      text-decoration: none;
+  }
+
+
+/*################################
+  SIGN UP
+  ################################*/
+
+  .signupheader {
+    width: 100%;
+    height: 20%;
+  }
+
+  h1.head1 {
+    font-size: 5vh;
+    width: 100%;
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  h2.head2 {
+    font-size: 3vh;
+    width: 100%;
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .holdform {
+    width: 60%;
+    margin-left: 20%;
+    border: solid silver 1px;
+    border-radius: 50px;
+    background-color: rgb(244, 244, 244);
+    height: 103vh;
+  }
+
+  .formitem {
+    width: 100%;
+    height: 10%;
+    /*margin-top: 1%;
+    margin-bottom: 1%;*/
+  }
+
+  .formheader {
+    float: left;
+    width: 100%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-left: 20%;
+    font-size: 2vh;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+  }
+
+  input[type=text] {
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 20%;
+    border-radius: 5px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 2vh;
+    padding: 0.25% 0.5% 0.25% 0.5%;
+    background-color: rgb(237, 237, 237);
+  }
+
+  input[type=submit] {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 2vh;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+  }
+
+/*################################
+  SIGN UP END
+  ################################*/
+
+  /*################################
+  HOME PAGE
+  ################################*/
+
+  h1.titulo_home
+  {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    color: rgb(58, 58, 58);
+    margin: 2vmax 0vh -2vmax 0vh;
+    font-size: 8vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+  }
+
+  h2.subtitulo
+  {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    margin-bottom: 2vmax;
+    color: rgb(58, 58, 58);
+    font-size: 4vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+  }
+
+  img.addprofile {
+    position: absolute;
+    left: 80%;
+    top: 5%;
+    width: 15%;
+    height: auto;
+  }
+
+  a.black
+  {
+    color: black;
+  }
+
+  .home_container
+  {
+    position: relative;
+    float: left;
+    width: 25%;
+    height: 50vh;
+    margin-bottom: 5vh;
+  }
+
+  .home_container, #home_name
+  {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 5vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .home_pic
+  {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: 0 5% 0 5%;
+    border-radius: 50%;
+  }
+
+  /*################################
+  HOME PAGE END
+  ################################*/
+
+
+  /*################################
+  PROFILE PAGE START
+  ################################*/
+  .sobremim_titulo_container
+  {
+    position: relative;
+    width: 100%;
+    height: 12%;
+    border-bottom: silver 1px;
+  }
+
+  .titulo_sobremim
+  {
+    position: absolute;
+    color: rgb(58, 58, 58);
+    font-size: 9vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    bottom: 0;
+    margin-left: 10%;
+  }
+
+  .sobremim_container1
+  {
+    float: left;
+    height: 88%;
+    width: 30%;
+  }
+
+  .sobremim_imagem
+  {
+    position: relative;
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .sobremim_subtitulo
+  {
+    position: relative;
+    color: rgb(58, 58, 58);
+    text-indent: 5%;
+    font-size: 4vh;
+    margin: 0 2% 0 2%;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_subtexto
+  {
+    background-color: rgb(235, 235, 235);
+    position: relative;
+    padding: 2vh 0 2vh 8%;
+    margin: 0 2% 0 2%;
+    color: black;
+    font-size: 3vh;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_container2
+  {
+    float: left;
+    height: 88%;
+    width: 42%;
+  }
+
+  .sobremim_titulo
+  {
+    position: relative;
+    color: rgb(58, 58, 58);
+    margin: 0 2% 0 2%;
+    text-indent: 5%;
+    font-size: 4vh;
+    border-bottom: solid 1px silver;
+    border-top: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_texto
+  {
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    margin: 0 2% 0 2%;
+    padding: 2vh 2% 2vh 8%;
+    font-size: 2.5vh;
+    height: 76.8vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    border-bottom: solid 1px silver;
+  }
+
+  .sobremim_container3
+  {
+    float: left;
+    height: 88vh;
+    width: 27%;
+  }
+
+  .sobremim_subtitulo2
+  {
+    position: relative;
+    color: rgb(58, 58, 58);
+    text-indent: 5%;
+    font-size: 4vh;
+    margin: 0 2% 0 2%;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_container4
+  {
+    margin: 1vh 0 1vh 0;
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 20vh;
+  }
+
+  img.a_p_img
+  {
+    position: relative;
+    width: 90%;
+    height: 75%;
+    margin: 0 5% 0 5%;
+    border-radius: 15%;
+  }
+
+  a.a_p
+  {
+    position: relative;
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_subtitulo3
+  {
+    position: relative;
+    width: 96%;
+    margin: 0 2% 0 2%;
+    float: left;
+    color: rgb(58, 58, 58);
+    text-indent: 5%;
+    font-size: 4vh;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_texto3
+  {
+    background-color: rgb(235, 235, 235);
+    margin: 0 2% 0 2%;
+    position: relative;
+    color: black;
+    font-size: 3vh;
+    float: left;
+    width: 86%;
+    padding: 0 2% 0 8%;
+    height:53.7vh;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  /*################################
+  PROFILE PAGE END
+  ################################*/
+
+
+  a.volta
+  {
+    position: fixed;
+    color: rgb(58, 58, 58);
+    font-size: 4vh;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(242, 242, 242);
+    padding: 5px 15px 10px 10px;
+    border-bottom-right-radius: 40px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: silver;
+    border-width: 2px;
+  }
+
+  .subtitle
+  {
+    margin-top: 0.5vw;
+    float: left;
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+    width: 93.9%;
+    padding-left: 6vw;
+    font-size: 2vw;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    line-height: 2.4vw;
+  }
+
+  .texto {
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    float: left;
+    overflow-x: hidden;
+    color: black;
+    font-size: 1vw;
+    width: 98%;
+    padding: 1vw 1vw 1vw 1vw;
+    height:20vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .imagem {
+    position: relative;
+    float:left;
+    width: 40vw;
+    height: 20vw;
+    margin-right: 1vw;
+  }
+
+  .no_p {
+    width: 50vw;
+    color: silver;
+    border: solid lightgray 1px;
+    border-radius: 30px;
+    padding: 2vw 1vw 2vw 1vw;
+    font-size: 2.5vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-top: 10vw;
+    margin-left: 25vw;
+  }
+
+  .titulo {
+    position: relative;
+    width: 80%;
+    color: rgb(58, 58, 58);
+    margin: 1.3vw 0vw 1.3vw 0vw;
+    font-size: 3.9vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  a:link, a:visited {
+      color: (internal value);
+      text-decoration: none;
+  }
+
+
+/*################################
+  SIGN UP
+  ################################*/
+
+  .signupheader {
+    width: 100%;
+    height: 20%;
+  }
+
+  h1.head1 {
+    font-size: 5vh;
+    width: 100%;
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  h2.head2 {
+    font-size: 3vh;
+    width: 100%;
+    text-align: center;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .holdform {
+    width: 60%;
+    margin-left: 20%;
+    border: solid silver 1px;
+    border-radius: 50px;
+    background-color: rgb(244, 244, 244);
+    height: 103vh;
+  }
+
+  .formitem {
+    width: 100%;
+    height: 10%;
+    /*margin-top: 1%;
+    margin-bottom: 1%;*/
+  }
+
+  .formheader {
+    float: left;
+    width: 100%;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-left: 20%;
+    font-size: 2vh;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+  }
+
+  input[type=text] {
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 20%;
+    border-radius: 5px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 2vh;
+    padding: 0.25% 0.5% 0.25% 0.5%;
+    background-color: rgb(237, 237, 237);
+  }
+
+  input[type=submit] {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 2vh;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+  }
+
+/*################################
+  SIGN UP END
+  ################################*/
+
+
+  /*################################
+  HOME PAGE
+  ################################*/
+
+  img.addprofile {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: auto;
+  }
+
+  h1.titulo_home
+  {
+    position: relative;
+    width: 100%;
+    color: rgb(58, 58, 58);
+    margin: 2vmax 0vh -4vmax 0vh;
+    font-size: 8vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+  }
+
+  h2.subtitulo
+  {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3vmax;
+    color: rgb(58, 58, 58);
+    font-size: 4vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    text-align: center;
+  }
+
+  a.black
+  {
+    color: black;
+  }
+
+  .home_container
+  {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .home_container, #home_name
+  {
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 5vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .home_pic
+  {
+    position: relative;
+    width: 40vh;
+    height: 40vh;
+    border-radius: 50%;
+  }
+
+  /*################################
+  HOME PAGE END
+  ################################*/
+
+
+  /*################################
+  PROFILE PAGE START
+  ################################*/
+  .sobremim_titulo_container
+  {
+    position: relative;
+    width: 100%;
+    height: 28%;
+    border-bottom: silver 1px;
+  }
+
+  .titulo_sobremim
+  {
+    position: absolute;
+    color: rgb(58, 58, 58);
+    font-size: 8vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    bottom: 0;
+    margin-left: 10%;
+  }
+
+  .sobremim_container1
+  {
+    float: left;
+    height: 100%;
+    width: 100%;
+  }
+
+  .sobremim_imagem
+  {
+    position: relative;
+    margin: 5% 5% 5% 5%;
+    width: 90%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  .sobremim_subtitulo
+  {
+    position: relative;
+    color: rgb(58, 58, 58);
+    text-indent: 5%;
+    font-size: 4vh;
+    margin: 0 2% 0 2%;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_subtexto
+  {
+    background-color: rgb(235, 235, 235);
+    position: relative;
+    padding: 2vh 0 2vh 8%;
+    margin: 0 2% 0 2%;
+    color: black;
+    font-size: 3vh;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_container2
+  {
+    float: left;
+    height: 140%;
+    width: 100%;
+  }
+
+  .sobremim_titulo
+  {
+    position: relative;
+    color: rgb(58, 58, 58);
+    margin: 0 2% 0 2%;
+    text-indent: 5%;
+    font-size: 4vh;
+    border-bottom: solid 1px silver;
+    border-top: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_texto
+  {
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    margin: 0 2% 0 2%;
+    padding: 2vh 2% 2vh 8%;
+    font-size: 2.5vh;
+    height: 110vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    border-bottom: solid 1px silver;
+  }
+
+  .sobremim_container3
+  {
+    float: left;
+    height: 88vh;
+    width: 100%;
+  }
+
+  .sobremim_subtitulo2
+  {
+    position: relative;
+    color: rgb(58, 58, 58);
+    text-indent: 5%;
+    font-size: 4vh;
+    margin: 0 2% 0 2%;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_container4
+  {
+    margin: 1vh 0 1vh 0;
+    text-align: center;
+    float: left;
+    width: 33.33%;
+    height: 20vh;
+  }
+
+  img.a_p_img
+  {
+    position: relative;
+    width: 90%;
+    height: 75%;
+    margin: 0 5% 0 5%;
+    border-radius: 15%;
+  }
+
+  a.a_p
+  {
+    position: relative;
+    font-size: 2vh;
+    color: black;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_subtitulo3
+  {
+    position: relative;
+    width: 96%;
+    margin: 0 2% 0 2%;
+    float: left;
+    color: rgb(58, 58, 58);
+    text-indent: 5%;
+    font-size: 4vh;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .sobremim_texto3
+  {
+    background-color: rgb(235, 235, 235);
+    margin: 0 2% 0 2%;
+    position: relative;
+    color: black;
+    font-size: 3vh;
+    float: left;
+    width: 86%;
+    padding: 0 2% 0 8%;
+    height:53.7vh;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  /*################################
+  PROFILE PAGE END
+  ################################*/
+
+
+  a.volta
+  {
+    position: fixed;
+    color: rgb(58, 58, 58);
+    font-size: 4vh;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(242, 242, 242);
+    padding: 5px 15px 10px 10px;
+    border-bottom-right-radius: 40px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: silver;
+    border-width: 2px;
+  }
+
+  .subtitle
+  {
+    margin-top: 0.5vw;
+    float: left;
+    color: rgb(58, 58, 58);
+    text-decoration: none;
+    width: 93.9%;
+    padding-left: 6vw;
+    font-size: 3.5vh;
+    border-top: solid 1px silver;
+    border-bottom: solid 1px silver;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .texto {
+    position: relative;
+    background-color: rgb(235, 235, 235);
+    float: left;
+    overflow-x: hidden;
+    color: black;
+    font-size: 3vh;
+    width: 100%;
+    height:50vw;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+
+  .imagem {
+    position: relative;
+    float:left;
+    width: 100%;
+    height: 50vw;
+  }
+
+  .no_p {
+    width: 50%;
+    color: silver;
+    padding: 10vw 1vw 10vw 1vw;
+    font-size: 3vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    margin-top: 20vh;
+    margin-left: 25%;
+  }
+
+  .titulo {
+    position: relative;
+    width: 100%;
+    color: rgb(58, 58, 58);
+    margin: 1.3vw 0vw 1.3vw 0vw;
+    padding-top: 12%;
+    font-size: 4vh;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  }
+}

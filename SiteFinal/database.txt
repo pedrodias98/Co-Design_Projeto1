@@ -1,4 +1,4 @@
-|user|
+﻿|user|
 
 	|name|
 	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
@@ -18,7 +18,7 @@
 
 	|description|
 		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
-			Eu sou o Matteo Iannoni, nasci em 1997 e adoro computa��o. Eu programei boa parte deste site! Do HTML e CSS ao JS e Python que mudam o html de acordo com o portfolio de cada aluno e a pagina em si - por que programador bom usa programa pra fazer trabalho repetitivo e formulaico como copiar a estrutura HTML de uma pagina para outras se o que muda � s� o conteudo delas.
+			Sou Matteo Iannoni, estudante de Engenharia da Computação no Insper Instituto de Ensino e Pesquisa, em São Paulo.<br>Atuo nas seguintes linguagens de programação: Python, HTML, JS e CSS. Entre os trabalhos que realizei recentemente estão:<br><br>> programação para análise de dados e estatísticas, usando a biblioteca Pandas;<br>> programação lógico-criativa, desenvolvendo jogos com a biblioteca Pygame;<br>> programação de modelos matemáticos, via método numérico, usando a biblioteca Scipy e a função Odeint, ou por meio da solução analítica de problemas;<br>> em menor escala, mas ainda significante: programação em C# para Unity, para a criação de jogos (como Pong, que fiz);<br>> este site, feito por mim em Python, CSS e HTML, e cuja construção dinamizei através do próprio código, evitando tarefas mecânicas e repetitivas.<br><br>Fundamentalmente, meu trabalho se pauta na busca pela máxima eficácia como objetivo da programação, de forma a otimizar processos e facilitar nossas vidas -- que, mais fáceis, tornam-se melhores.
 	|description_end|
 
 
@@ -29,13 +29,13 @@
 		#NOTA OU INFORMACAO SOBRE AVALIACAO
 		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
 		|stat1|
-			Prova de programa��o
+			Prova de programação
 			10
 			software
 		|stat1_end|
 
 		|stat2|
-			Projeto de uma rede de distribui��o de petr�leo
+			Projeto de uma rede de distribuição de petróleo
 			10
 			essay
 		|stat2_end|
@@ -48,7 +48,7 @@
 		#ESCREVE O NOME NA LINHA SEGUINTE
 			Padronizador de Nomes
 		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			O objetivo deste projeto � criar um programa que abra e modifique uma lista de nomes de um arquivo '.txt' de acordo com um padr�o. No minimo, o programa deveria arrumar uma lista especifica de nomes, porem, para atingir notas mais altas o aluno deveria fazer "algo a mais" (verbatim das instru��es do projeto) no codigo; a linha de codigo que eu programei, s� foi necessario uma, padroniza uma lista com 'x' nomes (eliminando nomes que ja existam na lista), sejam estes nomes compostos, com mais de 1 sobrenome ou com algum nome/sobrenome repetido.
+			O objetivo deste projeto é criar um programa que abra e modifique uma lista de nomes de um arquivo '.txt' de acordo com um padrão. No minimo, o programa deveria arrumar uma lista especifica de nomes, porem, para atingir notas mais altas o aluno deveria fazer "algo a mais" (verbatim das instruções do projeto) no codigo; a linha de codigo que eu programei, só foi necessario uma, padroniza uma lista com 'x' nomes (eliminando nomes que ja existam na lista), sejam estes nomes compostos, com mais de 1 sobrenome ou com algum nome/sobrenome repetido.
 		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
 			software
 		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
@@ -74,7 +74,7 @@
 		|pictures_end|
 	|project_end|
 
-	### ...... AT� ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
 	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
 |user_end|
 
@@ -98,7 +98,7 @@
 
 	|description|
 		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
-			Eu sou o Jhonata, sou um misto entre algumas exatas e humanas. Sempre tive um gosto tendencioso a tecnologia o que me levou a querer me aprofundar na �rea de programa��o e hoje em dia a engenharia da computa��o, mas como hobby eu gosto de pesquisar sobre e aprender as curiosidades que envolvem a filosofia e a sociologia.
+			Sou Jhonata Ferreira, estudante de Engenharia da Computação no Insper Instituto de Ensino e Pesquisa, em São Paulo.<br>Entre as Humanas e as Exatas, eu me interesso acima de tudo por tecnologia, o que resultou na escolha por Computação. Além disso, me dedico à pesquisa e ao estudo das áreas de Filosofia e Sociologia.
 	|description_end|
 
 
@@ -109,7 +109,7 @@
 		#NOTA OU INFORMACAO SOBRE AVALIACAO
 		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
 		|stat1|
-			Prova de programa��o
+			Prova de programação
 			10
 			software
 		|stat1_end|
@@ -122,7 +122,7 @@
 		#ESCREVE O NOME NA LINHA SEGUINTE
 			Padronizador de Nomes
 		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			O objetivo deste projeto � criar um programa que abra e modifique uma lista de nomes de um arquivo '.txt' de acordo com um padr�o. No minimo, o programa deveria arrumar uma lista especifica de nomes.
+			O objetivo deste projeto é criar um programa que abra e modifique uma lista de nomes de um arquivo '.txt' de acordo com um padrão. No minimo, o programa deveria arrumar uma lista especifica de nomes.
 		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
 			software
 		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
@@ -150,13 +150,13 @@
 
 	|project|
 		#ESCREVE O NOME NA LINHA SEGUINTE
-			Saque com ou sem resist�ncia ar
+			Saque com ou sem resistência ar
 		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Esse foi um projeto com o intuito de modelar, analisar e tirar conclus�es de um sistema mec�nico. O que levou a modela��o do saque de uma bola de v�lei em uma partida, analisando as diferen�as no comportamento da bola quando levamos em conta a resist�ncia do ar e quando n�o a levamos em conta.
+			Esse foi um projeto com o intuito de modelar, analisar e tirar conclusões de um sistema mecânico. O que levou a modelação do saque de uma bola de vôlei em uma partida, analisando as diferenças no comportamento da bola quando levamos em conta a resistência do ar e quando não a levamos em conta.
 		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
 			modelagem
 		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			programa��o  an�lise  modelagem  probletatiza��o  matematica
+			programação  análise  modelagem  probletatização  matematica
 		
 		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
 				
@@ -168,7 +168,7 @@
 
 		|download|
 			Projeto1(finalizado).pdf
-			Cria��o.ipynb
+			Criação.ipynb
 		|download_end|
 
 		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
@@ -179,13 +179,13 @@
 
 	|project|
 		#ESCREVE O NOME NA LINHA SEGUINTE
-			Medidor meteorol�gico port�til
+			Medidor meteorológico portátil
 		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			A ideia desse projeto era aprender a manusear e se familiarizar com componentes el�tricos, tanto manualmente quanto digitalmente, ent�o foi criado um pequeno medidos de temperatura, altura, humidade e press�o utilizando um Arduino.
+			A ideia desse projeto era aprender a manusear e se familiarizar com componentes elétricos, tanto manualmente quanto digitalmente, então foi criado um pequeno medidos de temperatura, altura, humidade e pressão utilizando um Arduino.
 		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
 			electric
 		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			circuitos componentes simula��o
+			circuitos componentes simulação
 		
 		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
 		
@@ -205,6 +205,1026 @@
 		|pictures_end|
 	|project_end|
 
-	### ...... AT� ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Arthur Alegro de Oliveira
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			96801-8433
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			arthurao@al.insper.edu.br
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Sou Arthur Alegro, aluno de Engenharia Mecatrônica no Insper Instituto de Ensino e Pesquisa, em São Paulo, com especial interesse no desenvolvimento de novas tecnologias. Por isso, insisto em manter-me atualizado quanto a novidades, que me inspiram e motivam. <br> Objetivo criar uma empresa de tecnologia que contribua ativamente para o alcance de melhorias sociais. Para tanto, minha dedicação aos estudos da graduação é intensa, seja no trabalho individual, seja no trabalho com colegas, que afinal me ensinam muito.
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			Árvore Fractal 
+			10
+			software
+		|stat1_end|
+
+		|stat2|
+			Estudo Populacional da Ilha Royale
+			10
+			modelagem
+		|stat2_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Árvore Fractal
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			O objetivo deste projeto era desenvolver um programa que utilizasse um algoritimo que se auto repetia, formando um desenho fractal 
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Melhor compreensão doq é um fractal
+			Aprendizado da biblioteca p5, na linguagem JavaScript
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+			p5.zip
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			fractal_tree.png
+		|pictures_end|
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Estudo Populacional da Ilha Royale
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Modelagem de um dos mais estudados sistemas populacionais do mundo, a interação de lobos e alces na Ilha Royale 
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Desenvolvimento de habilidades básicas de modelagem, Escolhas seletivas sobre informações úteis ao projeto e sua possível implementação no modelo, Compreensão de diferentes influências no sistema
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+			pop_royale.pdf
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			lobos_alces.png
+		|pictures_end|
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			TriAgile
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Conceito de um tricíclo com pedal assistido, voltado para a terceira idade
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			design
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Desenvolvimento de habilidades modelagem 3D, Design inovador
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+			triagile_concept.pdf
+			triagile1.png
+			triagile2.png
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			triagile2.png
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Pedro Villas Bôas Dias
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			98145-3799
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			pedrovbd@al.insper.edu.br
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Sou estudante de Engenharia Mecânica no Insper Instituto de Ensino e Pesquisa, em São Paulo, especialmente interessado em Física e Matemática. Também me dedico a estudar Programação, Filosofia e Sociologia, conjuntamente a Design e Empreendedorismo, com o objetivo de compreender criticamente o funcionamento da sociedade.<br>Minha relação com a Engenharia não é recente. Desde pequeno, desenvolvo projetos relacionados à área a partir de materiais diversos, como madeira e legos. Mais tarde, passei a identificar problemas e buscar soluções que melhorassem a qualidade de vida dos meus pares, primando pelo desenvolvimento sustentável viabilizado por fontes energéticas renováveis.
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			Hulk
+			9.0
+			Modelagem e Simulção do Mundo Físico
+		|stat1_end|
+
+		|stat2|
+			EP_2: Inspermon
+			9.5
+			Software
+		|stat2_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Inspermon
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Jogo semelhante ao Pokémon, onde tem um jogador e um “Pokémon” inicial, definido por nome, ataque, defesa, level e experiência. Nisso deveriam ser estabelecidas 6 funcionalidades: Passear (“Andar pelo ambiente”), sair do jogo, batalhar com “Pokémons” selvagens (em que Vida = Ataque – Defesa), um esquema de desvio de ataque (Random), evoluir (aumentar o level), ganhar experiência, ter possibilidade de salvar, novo jogo e jogo salvo, por fim uma funcionalidade extra. Esse jogo não usa interface gráfica, apenas python para a programação.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Python
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+
+		|download|
+			Inspermon.zip
+		|download_end|
+
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Escape Insper
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Nesse jogo o jogador tem de sair do Insper, pois acabou ficando preso ao estudar para caramba para a semana de prova e ficou trancado para dentro do colégio. Para escapar o jogador deve usar a lógica e conseguir objetos perdidos, usá-los para conseguir outros e até combiná-los.  Esse jogo possui um nível, e usa-se o python como linguagem de programação e o pygame, de interface.  
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Python  Pygame
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+		
+
+		|download|
+			JOGO.zip
+		|download_end|
+
+		
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Hulk
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Utilizando o conceito de equções difrencias e diagram de corpo livre tivemos de modelar um sistema mecânico a sua escolha. A partir disso foi escolhido com minha dupla modelar a quantidade de saltos realizadas pelo Hulk para chegar em San Franscisco, saindo de São Paulo.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Equações Difrencias Python Criação de Modelos
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Projeto3-Modesin.zip
+			Projeto Hulk apresentação (4).pptx
+		|download_end|
+
+		
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Morfina
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Utilizando o python tivemos de modelar sistemas farmacocinétcos, no caso a taxa de morfina a ser inserida em difrentes pacientes, comparando seu peso, altura, idade e quantidade de morfina a ser expelida.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Python  Equações Difrencias  Criação de Modelos
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			projeto 2.zip
+		|download_end|
+
+	
+	|project_end|
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Tubarões, Arraias e Vieiras
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Utilizando o python aprendemos a como modelar sistemas biológicos numericamento utilizando as equções de Eulier. Nesse modelo tivemos de realizar uma modelagem da cadeia alimentar (Tubarão - arraias - vieiras), considerando fatores externos como caça por humanos, para por fim explicar como se da essa interção.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Equções a Difrenças  Modelo de Estoques e Fluxos
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Projeto 1 - Modesim.pdf
+			Projeto1_Parte4.ipynb
+		|download_end|
+
+		
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Mobilidade Urbana
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Apresentação e debate crítico, saindo do senso comum, sobre a Mobilidade Urbana em São Paulo, considerando sua origem industrial, como impactou socialmente, como funcionava no passado, como funciona no presente e quais as perspectivas para o futuro.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Essay
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Debate Crítico  Comunicação
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Case_GDE.pptx
+		|download_end|
+
+		
+	|project_end|
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			O Papel das Fontes Renováveis na Sociedade Brasileira 
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Esse projeto trata-se de um mini-artigo científico que relaciona a utilização de fontes limpas e renováveis com o desenvolvimento sustentável, para provar que sua utilização traria um melhor befício para o páis e sua populção.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Essay
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Estruturação de artigo científico  Pesquisa
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Mini_Artigo_GDE_final3
+		|download_end|
+
+		
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Estação Meteriológica
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Utilizando o arduino, tivemos de criar uma pequena estação meteriológica que conseguisse calcular com precisão a umidade do ar, a pressão, altura e a temperatura na qual se encontrava.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Electric
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			 Componentes Eletrôncos  Progamação Arduino  Calibração dos Componentes
+
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			PlanilhaCalibraçãoDHT (UMIDADE).xlsx
+			PlanilhaCalibraçãoLM35(1) (1).xlsx
+		|download_end|
+	
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Fleedglings
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Projeto bioinspirado para crianças de 6 a 8 anos de idade. Esse projeto trata-se de um lançador de pássaros, pois como diz o nome "Fleedglings", são pássaros em seus primeiros estágios e por isso precisam de ajuda para voar.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Design
+
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Design  Persona  Design Thinking
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Fleedglings.docx
+		|download_end|
+
+		
+	|project_end|
+
+|user_end|
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Ronald McDonald
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			99999999
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			rolandinho@mc.com
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Sou um palhaco mesmo! Segue a vida
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			Sou legal
+			10
+			palhaçada
+		|stat1_end|
+
+		|stat2|
+			Sou palhaco
+			10
+			palhaçada
+		|stat2_end|
+
+		|stat3|
+			Gosto de criancas felizes
+			10
+			palhaçada
+		|stat3_end|
+
+		|stat4|
+			Gosto de gorduras trans
+			10
+			palhaçada
+		|stat4_end|
+
+		|stat5|
+			
+		|stat5_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Gorduras trans e seu benefício para a saude
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Como levar uma criança ao extremo da felicidade apenas com hamburgueres
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Gordura
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Felicidade é amor
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Demo Banana
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			11998136972
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			email@nomes.com
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Eu sou banana, eu gosto de pessoas e pessinhas tambem.
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			projeto 1
+8.4
+essay
+		|stat1_end|
+
+		|stat2|
+			
+		|stat2_end|
+
+		|stat3|
+			
+		|stat3_end|
+
+		|stat4|
+			
+		|stat4_end|
+
+		|stat5|
+			
+		|stat5_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			projeto 1
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Descricao do projeto demo
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			nenhuma
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			banana.png
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Camila Achutti
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			11998926923
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			camila.achutti@gmail.com
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Professora do INSPER 
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			Campo Minado
+SoftDes
+Programação 
+		|stat1_end|
+
+		|stat2|
+			Estação Metereologica
+Simulação
+Modelagem
+
+		|stat2_end|
+
+		|stat3|
+			
+		|stat3_end|
+
+		|stat4|
+			
+		|stat4_end|
+
+		|stat5|
+			
+		|stat5_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Amontoado de APIs
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Uso de APIs
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			software
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			a
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Barbara Dariano
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			1111111
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			bbbbbbb
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Minha descrição
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			Meu Projeto
+A+
+Everyday Things
+		|stat1_end|
+
+		|stat2|
+			
+		|stat2_end|
+
+		|stat3|
+			
+		|stat3_end|
+
+		|stat4|
+			
+		|stat4_end|
+
+		|stat5|
+			
+		|stat5_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Matita Matheus
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			98194-3370
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			matheussoares.augusto@hotmail.com
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Sou da bateria
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			
+		|stat1_end|
+
+		|stat2|
+			
+		|stat2_end|
+
+		|stat3|
+			
+		|stat3_end|
+
+		|stat4|
+			
+		|stat4_end|
+
+		|stat5|
+			
+		|stat5_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			é física morty
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			um jogo
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			programação
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			f
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Phelipe Müller
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			11 9935600430
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			Phelipe@navesmuller.com.br
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Sou Fofo
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			
+		|stat1_end|
+
+		|stat2|
+			
+		|stat2_end|
+
+		|stat3|
+			
+		|stat3_end|
+
+		|stat4|
+			
+		|stat4_end|
+
+		|stat5|
+			
+		|stat5_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Inspermon
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			pokemon do insper
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			programação, python
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			oi oi
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
+	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
+|user_end|
+
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Marcelo H
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			1
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			asd
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			asd
+	|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			
+		|stat1_end|
+
+		|stat2|
+			
+		|stat2_end|
+
+		|stat3|
+			
+		|stat3_end|
+
+		|stat4|
+			
+		|stat4_end|
+
+		|stat5|
+			
+		|stat5_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			asd
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			asd
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			asd
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#SYNTAXE:
+		#NOMEDOARQUIVO
+		#NOMEDOARQUIVO2
+		#NOMEDOARQUIVO3
+		#ETC! :)
+
+		|download|
+		|download_end|
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			asd
+		|pictures_end|
+	|project_end|
+
+	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
 	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
 |user_end|
