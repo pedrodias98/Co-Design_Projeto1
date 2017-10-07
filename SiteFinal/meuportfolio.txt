@@ -352,6 +352,276 @@
 
 	|name|
 	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
+		Pedro Villas Bôas Dias
+	|name_end|
+
+	|contact|
+		|telephone|
+		#SEU TELEFONE
+			98145-3799
+		|telephone_end|
+		|email|
+		#SEU EMAIL
+			pedrovbd@al.insper.edu.br
+		|email_end|
+	|contact_end|
+
+	|description|
+		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
+			Sou o Pedro Dias, tenho 19 anos, desde pequeno sempre me interessei por construir meus projetos, seja com lego, madeira... o que me fez seguir a carreira de engenheiro. Hoje sou aluno do 2ºSemestre de engenharia mecânica, gosto bastante de toda parte técnica, seja física ou matemática, mas me interesso bastante por programação, debate crítico, filosofia, sociologia, para entender como funciona a sociedade, além disso matérias de design e empreendedorismo me cativam a atenção.
+|description_end|
+
+
+	|statistics|
+		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
+		#SYNTAXE:
+		#NOME
+		#NOTA OU INFORMACAO SOBRE AVALIACAO
+		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+		|stat1|
+			Projeto 3: Hulk
+			9.0
+			Modelagem e Simulção do Mundo Físico
+		|stat1_end|
+
+		|stat2|
+			EP_2: Inspermon
+			9.5
+			Software
+		|stat2_end|
+	|statistics_end|
+
+
+	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Inspermon
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Jogo semelhante ao Pokémon, onde tem um jogador e um “Pokémon” inicial, definido por nome, ataque, defesa, level e experiência. Nisso deveriam ser estabelecidas 6 funcionalidades: Passear (“Andar pelo ambiente”), sair do jogo, batalhar com “Pokémons” selvagens (em que Vida = Ataque – Defesa), um esquema de desvio de ataque (Random), evoluir (aumentar o level), ganhar experiência, ter possibilidade de salvar, novo jogo e jogo salvo, por fim uma funcionalidade extra. Esse jogo não usa interface gráfica, apenas python para a programação.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Python
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+
+		|download|
+			Inspermon.zip
+		|download_end|
+
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Escape Insper
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Nesse jogo o jogador tem de sair do Insper, pois acabou ficando preso ao estudar para caramba para a semana de prova e ficou trancado para dentro do colégio. Para escapar o jogador deve usar a lógica e conseguir objetos perdidos, usá-los para conseguir outros e até combiná-los.  Esse jogo possui um nível, e usa-se o python como linguagem de programação e o pygame, de interface.  
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			software
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Python  Pygame
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|:
+		
+
+		|download|
+			JOGO.zip
+		|download_end|
+
+		
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Projeto 3: Hulk
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Utilizando o conceito de equções difrencias e diagram de corpo livre tivemos de modelar um sistema mecânico a sua escolha. A partir disso foi escolhido com minha dupla modelar a quantidade de saltos realizadas pelo Hulk para chegar em San Franscisco, saindo de São Paulo.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Equações Difrencias Python Criação de Modelos
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Projeto3-Modesin.zip
+			Projeto Hulk apresentação (4).pptx
+		|download_end|
+
+		
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Morfina
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Utilizando o python tivemos de modelar sistemas farmacocinétcos, no caso a taxa de morfina a ser inserida em difrentes pacientes, comparando seu peso, altura, idade e quantidade de morfina a ser expelida.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Python  Equações Difrencias  Criação de Modelos
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			projeto 2.zip
+			Estudos sobre a Concentração de Morfina no Corpo.pdf
+		|download_end|
+
+	
+	|project_end|
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Tubarões, Arraias e Vieiras
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Utilizando o python aprendemos a como modelar sistemas biológicos numericamento utilizando as equções de Eulier. Nesse modelo tivemos de realizar uma modelagem da cadeia alimentar (Tubarão - arraias - vieiras), considerando fatores externos como caça por humanos, para por fim explicar como se da essa interção.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Modelagem
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Equções a Difrenças  Modelo de Estoques e Fluxos
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Projeto 1 - Modesim.pdf
+			Projeto1_Parte4.ipynb
+		|download_end|
+
+		
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Mobilidade Urbana
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Apresentação e debate crítico, saindo do senso comum, sobre a Mobilidade Urbana em São Paulo, considerando sua origem industrial, como impactou socialmente, como funcionava no passado, como funciona no presente e quais as perspectivas para o futuro.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Essay
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Debate Crítico  Comunicação
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Case_GDE.pptx
+		|download_end|
+
+		
+	|project_end|
+	
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			O Papel das Fontes Renováveis na Sociedade Brasileira 
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Esse projeto trata-se de um mini-artigo científico que relaciona a utilização de fontes limpas e renováveis com o desenvolvimento sustentável, para provar que sua utilização traria um melhor befício para o páis e sua populção.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Essay
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Estruturação de artigo científico  Pesquisa
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Mini_Artigo_GDE_final3
+		|download_end|
+
+		
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Estação Meteriológica
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Utilizando o arduino, tivemos de criar uma pequena estação meteriológica que conseguisse calcular com precisão a umidade do ar, a pressão, altura e a temperatura na qual se encontrava.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Electric
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			 Componentes Eletrôncos  Progamação Arduino  Calibração dos Componentes
+
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			PlanilhaCalibraçãoDHT (UMIDADE).xlsx
+			PlanilhaCalibraçãoLM35(1) (1).xlsx
+		|download_end|
+	
+	|project_end|
+
+	|project|
+		#ESCREVE O NOME NA LINHA SEGUINTE
+			Fleedglings
+		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
+			Projeto bioinspirado para crianças de 6 a 8 anos de idade. Esse projeto trata-se de um lançador de pássaros, pois como diz o nome "Fleedglings", são pássaros em seus primeiros estágios e por isso precisam de ajuda para voar.
+		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
+			Design
+
+		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
+			Design  Persona  Design Thinking
+		
+		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
+		
+		
+		
+		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
+		|pictures|
+			
+		|pictures_end|
+
+		|download|
+			Fleedglings.docx
+		|download_end|
+
+		
+	|project_end|
+
+|user_end|
+
+|user|
+
+	|name|
+	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
 		Jhonata Ferreira de Souza
 	|name_end|
 
@@ -588,499 +858,4 @@
 
 	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
 	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
-|user_end|
-
-|user|
-
-	|name|
-	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
-		Arthur Alegro de Oliveira
-	|name_end|
-
-	|contact|
-		|telephone|
-		#SEU TELEFONE
-			96801-8433
-		|telephone_end|
-		|email|
-		#SEU EMAIL
-			arthurao@al.insper.edu.br
-		|email_end|
-	|contact_end|
-
-	|description|
-		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
-			Sou Arthur Alegro, e sou viciado em tecnologia desde pequeno. Atualmente curso Engenharia da Computação e tenho comc objetivos
-			fundar uma grande empresa de pesquisa tecnológica de ponta.
-	|description_end|
-
-
-	|statistics|
-		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
-		#SYNTAXE:
-		#NOME
-		#NOTA OU INFORMACAO SOBRE AVALIACAO
-		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-		|stat1|
-			Árvore Fractal 
-			10
-			software
-		|stat1_end|
-
-		|stat2|
-			Estudo Populacional da Ilha Royale
-			10
-			modelagem
-		|stat2_end|
-	|statistics_end|
-
-
-	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
-
-# -------------------------------------------------------------------- #
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Árvore Fractal
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			O objetivo deste projeto era desenvolver um programa que utilizasse um algoritimo que se auto repetia, formando um desenho fractal 
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			software
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Melhor compreensão doq é um fractal
-			Aprendizado da biblioteca p5, na linguagem JavaScript
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		#SYNTAXE:
-		#NOMEDOARQUIVO
-		#NOMEDOARQUIVO2
-		#NOMEDOARQUIVO3
-		#ETC! :)
-
-		|download|
-			p5.zip
-		|download_end|
-
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-		|pictures|
-			fractal_tree.png
-		|pictures_end|
-	|project_end|
-
-# -------------------------------------------------------------------- #
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Estudo Populacional da Ilha Royale
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Modelagem de um dos mais estudados sistemas populacionais do mundo, a interação de lobos e alces na Ilha Royale 
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			modelagem
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Desenvolvimento de habilidades básicas de modelagem
-			Escolhas seletivas sobre informações úteis ao projeto e sua possível implementação no modelo
-			Compreensão de diferentes influências no sistema
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		#SYNTAXE:
-		#NOMEDOARQUIVO
-		#NOMEDOARQUIVO2
-		#NOMEDOARQUIVO3
-		#ETC! :)
-
-		|download|
-			pop_royale.pdf
-		|download_end|
-
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-		|pictures|
-			lobos_alces.png
-		|pictures_end|
-	|project_end|
-
-# -------------------------------------------------------------------- #
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			TriAgile
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Conceito de um tricíclo com pedal assistido, voltado para a terceira idade
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			design
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Desenvolvimento de habilidades modelagem 3D
-			Design inovador
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		#SYNTAXE:
-		#NOMEDOARQUIVO
-		#NOMEDOARQUIVO2
-		#NOMEDOARQUIVO3
-		#ETC! :)
-
-		|download|
-			triagile_concept.pdf
-			triagile1.png
-			triagile2.png
-		|download_end|
-
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-		|pictures|
-			triagile2.png
-		|pictures_end|
-	|project_end|
-
-	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
-	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
-
-# -------------------------------------------------------------------- #
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Tratamento de Erros Python
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Aula dada aos colegas e professor sobre tratamento de dados na linguagem Python
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			software
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Aprofundamento na liguagem pythyon
-			Habilidade de tratar erros e implementações experimentais em códigos
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		#SYNTAXE:
-		#NOMEDOARQUIVO
-		#NOMEDOARQUIVO2
-		#NOMEDOARQUIVO3
-		#ETC! :)
-
-		|download|
-			trat_error.pptx
-		|download_end|
-
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-		|pictures|
-			trat_error.png
-		|pictures_end|
-	|project_end|
-
-	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
-	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
-
-# -------------------------------------------------------------------- #
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Concentração de Morfina 
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Estudo sobre a concentração de morfina no corpo humano, em especial no uso do medicamento para a pediatria
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			modelagem
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Modelagem em equações diferenciais
-			Elaborção de modelos contínuos
-			Criação de um cartaz científico
-			
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		#SYNTAXE:
-		#NOMEDOARQUIVO
-		#NOMEDOARQUIVO2
-		#NOMEDOARQUIVO3
-		#ETC! :)
-
-		|download|
-			Morfina.pptx
-		|download_end|
-
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-		|pictures|
-			morfina.png
-		|pictures_end|
-	|project_end|
-
-	### ...... ATÉ ESSA LINHA E MUDA O QUE TA DENTRO DO BLOCO |project| CONTEUDO |project_end|
-	### ENTAO VOCE VAI TER VARIOS BLOCOS |project| CONTEUDO |project_end|, UM PARA CADA PROJETO!
-
-# -------------------------------------------------------------------- #
-
-
-
-|user_end|
-
-|user|
-
-	|name|
-	#SEU NOME >>>>>COMPLETO<<<<< COM LETRA MAIUSCULA E TUDO
-		Pedro Villas Bôas Dias
-	|name_end|
-
-	|contact|
-		|telephone|
-		#SEU TELEFONE
-			98145-3799
-		|telephone_end|
-		|email|
-		#SEU EMAIL
-			pedrovbd@al.insper.edu.br
-		|email_end|
-	|contact_end|
-
-	|description|
-		#DESCRICAO DE VOCE, POR VOCE, QUE VAI FICAR NO SEU PERFIL EM "SOBRE MIM"
-			Sou o Pedro Dias, tenho 19 anos, desde pequeno sempre me interessei por construir meus projetos, seja com lego, madeira... o que me fez seguir a carreira de engenheiro. Hoje sou aluno do 2ºSemestre de engenharia mecânica, gosto bastante de toda parte técnica, seja física ou matemática, mas me interesso bastante por programação, debate crítico, filosofia, sociologia, para entender como funciona a sociedade, além disso matérias de design e empreendedorismo me cativam a atenção.
-|description_end|
-
-
-	|statistics|
-		#LISTA DE INFORMACOES DE PROJETOS NOTAVEIS SEUS, PODE ESCREVER ATE CINCO PROJETOS NOTAVEIS, MAIS QUE ISSO VAI SER IGNORADO
-		#SYNTAXE:
-		#NOME
-		#NOTA OU INFORMACAO SOBRE AVALIACAO
-		#CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-		|stat1|
-			Projeto 3: Hulk
-			9.0
-			Modelagem e Simulção do Mundo Físico
-		|stat1_end|
-
-		|stat2|
-			EP_2: Inspermon
-			9.5
-			Software
-		|stat2_end|
-	|statistics_end|
-
-
-	### SE FOR ADICIONAR MAIS DE UM PROJETO, DA COPY DESSA LINHA ......
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Inspermon
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Jogo semelhante ao Pokémon, onde tem um jogador e um “Pokémon” inicial, definido por nome, ataque, defesa, level e experiência. Nisso deveriam ser estabelecidas 6 funcionalidades: Passear (“Andar pelo ambiente”), sair do jogo, batalhar com “Pokémons” selvagens (em que Vida = Ataque – Defesa), um esquema de desvio de ataque (Random), evoluir (aumentar o level), ganhar experiência, ter possibilidade de salvar, novo jogo e jogo salvo, por fim uma funcionalidade extra. Esse jogo não usa interface gráfica, apenas python para a programação.
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			software
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Python
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-
-		|download|
-			Inspermon.zip
-		|download_end|
-
-		|pictures|
-		|pictures_end|
-
-	|project_end|
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Escape Insper
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Nesse jogo o jogador tem de sair do Insper, pois acabou ficando preso ao estudar para caramba para a semana de prova e ficou trancado para dentro do colégio. Para escapar o jogador deve usar a lógica e conseguir objetos perdidos, usá-los para conseguir outros e até combiná-los.  Esse jogo possui um nível, e usa-se o python como linguagem de programação e o pygame, de interface.  
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			software
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Python  Pygame
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS	
-
-		|download|
-			JOGO.zip
-		|download_end|
-
-		|pictures|
-			
-		|pictures_end|
-		
-	|project_end|
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Projeto 3: Hulk
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Utilizando o conceito de equções difrencias e diagram de corpo livre tivemos de modelar um sistema mecânico a sua escolha. A partir disso foi escolhido com minha dupla modelar a quantidade de saltos realizadas pelo Hulk para chegar em San Franscisco, saindo de São Paulo.
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			Modelagem
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Equações Difrencias Python Criação de Modelos
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-
-
-		|download|
-			Projeto3-Modesin.zip
-			Projeto Hulk apresentação (4).pptx
-		|download_end|
-
-		|pictures|
-			
-		|pictures_end|
-		
-	|project_end|
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Morfina
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Utilizando o python tivemos de modelar sistemas farmacocinétcos, no caso a taxa de morfina a ser inserida em difrentes pacientes, comparando seu peso, altura, idade e quantidade de morfina a ser expelida.
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			Modelagem
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Python  Equações Difrencias  Criação de Modelos
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-
-
-		|download|
-			projeto 2.zip
-			Estudos sobre a Concentração de Morfina no Corpo.pdf
-		|download_end|
-
-		|pictures|
-			
-		|pictures_end|
-	
-	|project_end|
-project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Tubarões, Arraias e Vieiras
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Utilizando o python aprendemos a como modelar sistemas biológicos numericamento utilizando as equções de Eulier. Nesse modelo tivemos de realizar uma modelagem da cadeia alimentar (Tubarão - arraias - vieiras), considerando fatores externos como caça por humanos, para por fim explicar como se da essa interção.
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			Modelagem
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Equções a Difrenças  Modelo de Estoques e Fluxos
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		
-		
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-
-		|download|
-			Projeto 1 - Modesim.pdf
-			Projeto1_Parte4.ipynb
-		|download_end|
-
-		|pictures|
-			
-		|pictures_end|
-		
-	|project_end|
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Mobilidade Urbana
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Apresentação e debate crítico, saindo do senso comum, sobre a Mobilidade Urbana em São Paulo, considerando sua origem industrial, como impactou socialmente, como funcionava no passado, como funciona no presente e quais as perspectivas para o futuro.
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			Essay
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Debate Crítico  Comunicação
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-
-		|download|
-			Case_GDE.pptx
-		|download_end|
-
-		|pictures|
-			
-		|pictures_end|
-		
-	|project_end|
-project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			O Papel das Fontes Renováveis na Sociedade Brasileira 
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Esse projeto trata-se de um mini-artigo científico que relaciona a utilização de fontes limpas e renováveis com o desenvolvimento sustentável, para provar que sua utilização traria um melhor befício para o páis e sua populção.
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			Essay
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Estruturação de artigo científico  Pesquisa
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-
-		|download|
-			Mini_Artigo_GDE_final3
-		|download_end|
-
-		|pictures|
-			
-		|pictures_end|
-		
-	|project_end|
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Estação Meteriológica
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Utilizando o arduino, tivemos de criar uma pequena estação meteriológica que conseguisse calcular com precisão a umidade do ar, a pressão, altura e a temperatura na qual se encontrava.
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			Electric
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			 Componentes Eletrôncos  Progamação Arduino  Calibração dos Componentes
-
-		
-		
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-
-		|download|
-			PlanilhaCalibraçãoDHT (UMIDADE).xlsx
-			PlanilhaCalibraçãoLM35(1) (1).xlsx
-		|download_end|
-
-		|pictures|
-			
-		|pictures_end|
-	|project_end|
-
-	|project|
-		#ESCREVE O NOME NA LINHA SEGUINTE
-			Fleedglings
-		#ESCREVE A DESCRICAO DO PROJETO NA LINHA SEGUINTE
-			Projeto bioinspirado para crianças de 6 a 8 anos de idade. Esse projeto trata-se de um lançador de pássaros, pois como diz o nome "Fleedglings", são pássaros em seus primeiros estágios e por isso precisam de ajuda para voar.
-		#ESCREVE A CATEGORIA NA QUAL O PROJETO SE ENCAIXA
-			Design
-
-		#ESCREVE AS HABILIDADES QUE VOCE CULTIVOU COM ESTE PROJETO, COM DOIS ESPACOS ENTRE ELAS E NAO ESCREVA DEMAIS, PRA NAO DAR BUG
-			Design  Persona  Design Thinking
-		
-		#LISTA DE ARQUIVOS DO SEU PROJETO PRA DISPONIBILIZAR PRA DOWNLOAD
-		
-		
-		
-		#LISTA DE FOTOS, MESMA SYNTAXE QUE OS ARQUIVOS
-
-		|download|
-			Fleedglings.docx
-		|download_end|
-
-		|pictures|
-			
-		|pictures_end|
-		
-	|project_end|
-
 |user_end|
